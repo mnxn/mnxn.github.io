@@ -1,0 +1,4 @@
+baseURL = "https://mnxn.github.io/"
+languageCode = "en-us"
+title = "Max Lantas"
+theme = "hugo-xmin"
