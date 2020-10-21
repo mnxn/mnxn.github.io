@@ -5,11 +5,6 @@ body {
 	line-height: 1.5em;
 }
 
-/* title */
-.title {
-	line-height: 1.5em;
-}
-
 /* header and footer areas */
 .menu {
 	padding: 0;
@@ -31,6 +26,7 @@ footer {
 }
 .title {
 	font-size: 1.1em;
+	line-height: 1.5em;
 }
 footer a {
 	text-decoration: none;
