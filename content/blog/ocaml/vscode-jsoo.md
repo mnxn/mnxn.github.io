@@ -95,7 +95,7 @@ For this JavaScript file to be used, the library's dune configuration must be up
 
 Afterward, bindings can be created that reference `vscode` and its namespaces or values.
 
-There is some [ongoing work](https://github.com/LexiFi/gen_js_api/pulls) in gen_js_api that may improve the interaction between node modules and scopes.
+There is some [ongoing work](https://github.com/LexiFi/gen_js_api/pull/119) in gen_js_api that may improve the interaction between node modules and scopes.
 
 
 
