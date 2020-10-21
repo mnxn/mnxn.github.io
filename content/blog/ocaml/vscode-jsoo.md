@@ -1,7 +1,6 @@
 ---
 title: "Js_of_ocaml in the VSCode OCaml Platform"
 date: 2020-10-20T23:51:37-07:00
-draft: true
 ---
 
 
