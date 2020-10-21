@@ -111,8 +111,8 @@ For example, to try to decode a list of integers, returning a default value othe
 
 ```ocaml
 let decode json =
-	let open Jsonoo.Decode in
-	try_default [] (list int) json
+  let open Jsonoo.Decode in
+  try_default [] (list int) json
 ```
 
 Since jsonoo provides [`t_of_js` and `t_to_js` functions](https://mnxn.github.io/jsonoo/jsonoo/Jsonoo/index.html#compatibility-with-gen_js_api), it is also possible to use the JSON type with gen_js_api bindings:
@@ -184,18 +184,18 @@ val let* : 'a promise -> ('a -> 'b promise) -> 'b promise
 
 ```ocaml
 let async_function () : int promise =
-	let* first_num = get_num () in
-	let* second_num = get_num () in
-	async_calculation first_num second_num
+  let* first_num = get_num () in
+  let* second_num = get_num () in
+  async_calculation first_num second_num
 ```
 
 This syntax is reminiscent of `await` syntax in other languages and it is a good alternative to the previous style of monadic operators:
 
 ```ocaml
 let async_function () : int promise =
-	get_num () >>= fun first_num ->
-	get_num () >>= fun second_num ->
-	async_calculation first_num second_num
+  get_num () >>= fun first_num ->
+  get_num () >>= fun second_num ->
+  async_calculation first_num second_num
 ```
 
 promise_jsoo has a comprehensive test suite that should give weight to its claims of type safety. It was difficult to find a testing library that would work for an asynchronous library in Js_of_ocaml, but I eventually found [webtest](https://github.com/johnelse/ocaml-webtest) by [@johnelse](https://github.com/johnelse).
