@@ -198,7 +198,7 @@ let async_function () : int promise =
 	async_calculation first_num second_num
 ```
 
-promise_jsoo has a comprehensive test suite that should put give weight to its claims of type safety. It was difficult to find a testing library that would work for an asynchronous library in Js_of_ocaml, but I eventually found [webtest](https://github.com/johnelse/ocaml-webtest) by [@johnelse](https://github.com/johnelse).
+promise_jsoo has a comprehensive test suite that should give weight to its claims of type safety. It was difficult to find a testing library that would work for an asynchronous library in Js_of_ocaml, but I eventually found [webtest](https://github.com/johnelse/ocaml-webtest) by [@johnelse](https://github.com/johnelse).
 
 In the future, I'd like to investigate giving types to promise rejections and providing a simple way to convert to [Async](https://github.com/janestreet/async) or [Lwt](https://github.com/ocsigen/lwt) types.
 
