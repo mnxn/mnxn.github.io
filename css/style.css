@@ -5,6 +5,11 @@ body {
 	line-height: 1.5em;
 }
 
+/* title */
+.title {
+	line-height: 1.5em;
+}
+
 /* header and footer areas */
 .menu {
 	padding: 0;
