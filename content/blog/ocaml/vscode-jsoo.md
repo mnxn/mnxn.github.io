@@ -219,4 +219,4 @@ Overall, I am very happy with the transition to Js_of_ocaml. The ability to use 
 
 The VSCode OCaml Platform is an actively developed project with numerous contributors, so please feel free to [submit an issue](https://github.com/ocamllabs/vscode-ocaml-platform/issues) or [contribute a pull-request](https://github.com/ocamllabs/vscode-ocaml-platform/pulls).
 
-If you have any questions or comments about this post, I can answer them on the [OCaml forum topic](https://discuss.ocaml.org/t/js-of-ocaml-in-the-vscode-ocaml-platform/6635).
+If you have any questions or comments about this post, I can answer them on the [OCaml Forum topic](https://discuss.ocaml.org/t/js-of-ocaml-in-the-vscode-ocaml-platform/6635).
