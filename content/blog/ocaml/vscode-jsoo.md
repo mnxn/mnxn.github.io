@@ -72,7 +72,7 @@ What gen_js_api will do is generate code that automatically calls `Ojs.string_to
 
 It is important to note that unlike BuckleScript, gen_js_api is actually doing a conversion between values. If a function binding is written that returns an OCaml record, modifying a field of that record only modifies the record itself; the original JS value is untouched. This is different from BuckleScript, where an OCaml type directly corresponds to its JS data representation.
 
-To avoid this, it is possible to keep values as an abstract `Ojs.t` type, which are the unconverted JS values. Accessing and setting fields can be done with a function annotated with [`[@@js.set]` or `[@@js.get]`](https://github.com/LexiFi/gen_js_api/blob/master/VALUES.md). This method was used for the entirety of the extension's VSCode bindings, which can be found [here](https://github.com/ocamllabs/vscode-ocaml-platform/tree/master/vscode).
+To avoid this, it is possible to keep values as an abstract `Ojs.t` type, which are the unconverted JS values. Accessing and setting fields can be done with a function annotated with [`[@@js.set]` or `[@@js.get]`](https://github.com/LexiFi/gen_js_api/blob/master/VALUES.md). This method was used for the entirety of the extension's VSCode bindings, which can be found [here](https://github.com/ocamllabs/vscode-ocaml-platform/tree/master/src-bindings/vscode).
 
 
 
