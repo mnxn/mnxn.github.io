@@ -18,7 +18,7 @@ The VSCode OCaml Platform extension is part of the larger [OCaml Platform](https
 
 OCaml-LSP can be used from any editor that supports the protocol, but the VSCode extension provides additional features: managing different package manager sandboxes; syntax highlighting of many OCaml-related filetypes; and integration with VSCode tasks, snippets, and indentation rules.
 
-Both the language server and VSCode extension are continuously tested to ensure compatibility for opam and esy on macOS, Linux, and [even Windows](https://github.com/ocamllabs/vscode-ocaml-platform#windows).
+Both the language server and VSCode extension are continuously tested to ensure compatibility for opam and esy on macOS, Linux, and [even Windows](https://github.com/ocamllabs/vscode-ocaml-platform#on-windows).
 
 Making OCaml more accessible is a goal for these projects. Providing support for a popular cross-platform code editor and the widely supported language server protocol helps achieve that goal.
 
